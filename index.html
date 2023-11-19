@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="comicForm">
+            <!-- Input fields for each comic panel -->
+            <!------ first panel ------>
+            <label for="panel1">Panel 1:</label>
+            <input type="text" id="panel1" name="panel1" required>
+
+            <!------ second panel ------>
+            <label for="panel2">Panel 2:</label>
+            <input type="text" id="panel2" name="panel2" required>
+
+            <!------ third panel ------>
+            <label for="panel3">Panel 3:</label>
+            <input type="text" id="panel3" name="panel3" required>
+
+            <!------ fourth panel ------>
+            <label for="panel4">Panel 4:</label>
+            <input type="text" id="panel4" name="panel4" required>
+
+            <!------ fifth panel ------>
+            <label for="panel5">Panel 5:</label>
+            <input type="text" id="panel5" name="panel5" required>
+
+            <!------ sixth panel ------>
+            <label for="panel6">Panel 6:</label>
+            <input type="text" id="panel6" name="panel6" required>
+
+            <!------ seventh panel ------>
+            <label for="panel7">Panel 7:</label>
+            <input type="text" id="panel7" name="panel7" required>
+
+          <!------ eighth panel ------>
+            <label for="panel8">Panel 8:</label>
+            <input type="text" id="panel8" name="panel8" required>
+
+            <!------ ninth panel ------>
+            <label for="panel9">Panel 9:</label>
+            <input type="text" id="panel9" name="panel9" required>
+
+            <!------ tenth panel ------>
+            <label for="panel10">Panel 10:</label>
+            <input type="text" id="panel10" name="panel10" required>
+
+
+
+            <button type="button" onclick="generateComic()">Generate Comic</button>
+        </form>
+
+        <!-- Display area for generated comic panels -->
+        <div id="comicDisplay"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
